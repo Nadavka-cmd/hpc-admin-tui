@@ -1,4 +1,12 @@
 # HPC Admin TUI
+## Screenshots
+
+![Slurm Admin](1.png)
+![Partitions](2.png)
+![AD Groups](3.png)
+![Config Sync](4.png)
+![Users](5.png)
+![NetFreeze](6.png)
 
 A terminal-based administration tool for managing GPU HPC clusters running Slurm, Open OnDemand, and Active Directory/SSSD on Rocky Linux 9.
 
