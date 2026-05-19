@@ -1,12 +1,4 @@
 # HPC Admin TUI
-## Screenshots
-
-![Slurm Admin](1.png)
-![Partitions](2.png)
-![AD Groups](3.png)
-![Config Sync](4.png)
-![Users](5.png)
-![NetFreeze](6.png)
 
 A terminal-based administration tool for managing GPU HPC clusters running Slurm, Open OnDemand, and Active Directory/SSSD on Rocky Linux 9.
 
@@ -15,10 +7,16 @@ Built with [Textual](https://github.com/Textualize/textual).
 ## Features
 
 - **Slurm Admin** — manage users, accounts, QoS policies, and partitions via sacctmgr; bulk-import AD groups; live AD group membership view
+![Slurm Admin](1.png)
+![Users](5.png)
+![AD Groups](3.png)
 - **Config Sync** — cluster-wide config file sync matrix (slurm.conf, sssd.conf, hosts, limits, sysctl, environment); per-file diff and targeted push; proxy config audit
+![Config Sync](4.png)
+![Partitions](2.png)
 - **Scratch Audit** — per-node /scratch scanner with age/size highlighting, active-job protection, and bulk delete
 - **ZFS Quotas** — view and set per-user ZFS quotas on TrueNAS NAS hosts
 - **NetFreeze Monitor** — SSH-based network freeze detection across cluster nodes (ARP failure, bond failover, link flap)
+![NetFreeze](6.png)
 
 ## Requirements
 
